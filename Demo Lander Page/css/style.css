@@ -1,0 +1,91 @@
+.gradient-background {
+  background: linear-gradient(300deg, #F9F9E0, #FF9EAA, #FFD0D0, #3AA6B9);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.navbar{
+  background-color: black;
+}
+.con{
+  background-color: #EEEDEB;
+ 
+}
+.fs-4{
+ color: #FFCAD4;
+ font-weight: bolder;
+ font-style: italic;
+ font-family: Arial, Helvetica, sans-serif
+  
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+    margin: 0;
+    background-color: black;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.contain{
+  background-color: #F11A7B;
+  height: 70px;
+  
+}
+.nav-link{
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+@media (max-width: 768px) {
+    :root {
+        --docsearch-spacing: 10px;
+        --docsearch-footer-height: 40px;
+    }
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
